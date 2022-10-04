@@ -1,0 +1,61 @@
+	<html>
+		<head>
+			<title>정보 등록</title>
+		</head>
+			<body>
+				<form action="축하.html" method="post">
+					<fieldset>
+						<legend>정보 등록</legend>
+						1. 이 름 : <input type="text" placeholder="이 름"><br>
+						2. 이 메 일 : <input type="email" placeholder=""><br>
+						3. 휴대폰 번호 : <input type="tel" placeholder="010-1234-5678">
+					</fieldset><br>
+					<fieldset>
+						<legend>기타 정보</legend>
+						1. 직 업 <input type="text" list="job">
+						<datalist id="job">
+							<option value="개발자"></option>
+							<option value="코더"></option>
+							<option value="게임 기획자"></option>
+						</datalist>
+						<select>
+							<option value="1">개발자</option>
+							<option value="2">코더</option>
+							<option value="3">게임 기획자</option>
+						</select><br>
+						2. 성별 <label>남성
+							<input type="radio" name="sex" value="1">
+							여성
+							<input type="radio" name="sex" value="2"><br>
+						</label> 
+						3. 취미 <br><label>
+							<input type="checkbox" value="1">게임
+							<input type="checkbox"
+							value="2">독서
+							<input type="checkbox" value="3">프로그래밍 공부
+						</label>
+					</fieldset>
+					<h3>자기 소개</h3>
+					<textarea cols="90" rows="10" placeholder="글을 입력하세요."></textarea><br>
+					<label>
+						<input type="submit" value="확인">
+						<input type="reset" value="취소">
+						<input type="image" src="고양이1.jfif" width="100px" height="100px">
+					</label>
+				</form>
+					<hr>
+					<h3>시간 정보 입력 HTML5 폼 요소들</h3>
+					초기 세팅 : 2022년 10월 4일 저녁 7시 40분(12초 54)<br>
+					시간을 변경해 보세요
+					<hr>
+					<form>
+					<pre>
+month : <input type="month" value="2022-10"><br> 
+data : <input type="date" value="2022-10-04"><br> 
+time : <input type="time" value="19:40"><br>
+local: <input type="datetime-local"><br>
+색선택 : <input type="color" value="#00BFFF"onchange="document.body.style.color=this.value">
+				</form>
+<a href="나의 Profile.html" target="iframe1">메뉴로 되돌아가기</a>	
+			</body>	
+	</html>
