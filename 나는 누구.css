@@ -1,0 +1,8 @@
+body.main {
+	background: gold;
+}
+ul.ul1 > li:hover {
+	font-size: 130%;
+	display: inline-block;
+	background: yellowgreen;
+}

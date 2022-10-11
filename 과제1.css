@@ -1,0 +1,10 @@
+div {
+	text-align: center;
+}
+a.index:hover {
+	background: yellow; 
+	font-size: 130%;
+}
+body.main{
+	background: skyblue;
+}

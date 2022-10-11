@@ -1,0 +1,17 @@
+body.main {
+	background: orange;
+}
+h3:first-letter {
+	color: aqua;
+}
+div > h3 > div > strong {
+	background: lemonchiffon;
+}
+li:hover{
+	background: yellowgreen;
+	display: inline-block;
+	font-size: 130%;
+}
+.return {
+	color: gold;
+}
